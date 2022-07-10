@@ -1,0 +1,29 @@
+{
+  "name": "step_project_forkio",
+  "version": "1.0.1",
+  "description": "Landing page",
+  "homepage": "https://vladyslav-panchenko280.github.io/Forkio",
+  "main": "gulpfile.js",
+  "scripts": {
+    "deploy": "gh-pages -d ./"
+  },
+  "author": "Vladyslav Panchenko",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "gh-pages": "^4.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-imagemin": "7.1.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.49.0"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
