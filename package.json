@@ -5,7 +5,7 @@
   "homepage": "https://vladyslav-panchenko280.github.io/Forkio",
   "main": "gulpfile.js",
   "scripts": {
-    "deploy": "gh-pages -d ./"
+    "deploy": "gh-pages -d dist"
   },
   "author": "Vladyslav Panchenko",
   "license": "ISC",

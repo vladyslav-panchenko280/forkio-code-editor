@@ -13,6 +13,11 @@ function reload(done){
     done();
 }
 
+gulp.task('processHtml', () => {
+    return gulp.src('./*.html')
+    .pipe(gulp.dest('dist/'))
+})
+
 gulp.task('processCss', () => {
     return gulp.src('./src/scss/**/*.scss')
         .pipe(sass().on('error', sass.logError))
@@ -60,7 +65,7 @@ gulp.task('watch', () => {
     gulp.watch('./index.html', reload);
     gulp.watch(['./dist/js/*.js', './dist/css/*.css', './dist/img/**/*'], reload);
 });
-gulp.task('build', gulp.series('clean', gulp.parallel('processCss', 'processJs', 'imagemin')));
+gulp.task('build', gulp.series('clean', gulp.parallel('processCss', 'processJs', 'imagemin', 'processHtml')));
 gulp.task('dev', gulp.series('build', 'watch'));
 
 
