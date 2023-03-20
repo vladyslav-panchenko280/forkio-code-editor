@@ -1,8 +1,8 @@
 {
-  "name": "step_project_forkio",
+  "name": "forkio",
   "version": "1.0.1",
   "description": "Landing page",
-  "homepage": "https://vladyslav-panchenko280.github.io/Forkio",
+  "homepage": "https://vladyslav-panchenko280.github.io/forkio-code-editor",
   "main": "gulpfile.js",
   "scripts": {
     "deploy": "gh-pages -d dist"
