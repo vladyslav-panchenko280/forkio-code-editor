@@ -1,6 +1,6 @@
 # Forkio
 
-Forkio - modern open-source code editor. Fork has some unique features like Quick Edit and live preview
+Forkio app is modern open-source code editor, that blends visual tools into the editor. Fork has some unique features like Quick Edit and live preview
 
 ## Main features
 
